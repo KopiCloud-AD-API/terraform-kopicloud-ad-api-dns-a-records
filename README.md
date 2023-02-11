@@ -14,7 +14,7 @@
 * Generate an authentication token in the KopiCloud AD API portal
 * Update the file **terraform.tfvars** to adjust the authentication to your environment
 
-## How To deploy the code:
+## How to deploy the code:
 
 1. Clone the repo
 2. Update variables to your environment
