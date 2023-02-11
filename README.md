@@ -18,8 +18,8 @@
 
 1. Clone the repo
 2. Update variables to your environment
-3. Execute "terraform init"
-4. Execute "terraform apply"
+3. Execute "**terraform init**"
+4. Execute "**terraform apply**"
 
 ## References:
 
