@@ -13,6 +13,6 @@ terraform {
 
 # Configure the KopiCloud AD API Provider
 provider "kopicloud" {
-  host  = "https://api.kopicloud.local"
-  token = "Basic b3NKYXu6UZFsdjMyQnVs8DN9"
+  host  = var.kopicloud_host
+  token = var.kopicloud_token
 }
