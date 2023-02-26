@@ -51,7 +51,7 @@ output "dns_a_records_list_hostname" {
   value       = data.kopicloud_dns_a_records_list.test_a_hostname
 }
 
-# Returns the IP Address of the 1st DNS A Record"
+# Returns the IP Address of the 1st DNS A Record
 output "dns_a_records_list_hostname_record_1_ip_address" {
   description = "Show the IP Address of the 1st DNS A Record"
   value       = data.kopicloud_dns_a_records_list.test_a_hostname.result.0.data
