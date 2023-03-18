@@ -11,3 +11,4 @@ variable "kopicloud_host" {
   type        = string
   description = "KopiCloud AD API Host"
 }
+
